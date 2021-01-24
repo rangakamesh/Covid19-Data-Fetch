@@ -11,7 +11,7 @@ The project has three phases :
 - For Endpoint documentation and usage requirements please refer to the <a href="https://blue-water-070724a0f.azurestaticapps.net/" target="_blank">documentations site</a>.
 
 
-The repository is an Azure Funtion deploy it directly to Azure functions and the job runs every day at 7AM GMT.
+The repository is an Azure Funtion. Deploy it directly to Azure functions and the job should run every day at 7AM GMT.
 
 If you want to just run the python code locally,
 1. Install the dependencies from the *requirements.txt*
