@@ -98,10 +98,10 @@ def fetchFromRepository():
   # Connecting to the mongo db
   client = pymongo.MongoClient(MongoDB)
   db = client["covid"]
-  col = db["countrywise"]
+  col = db["records"]
   col.drop()
   db = client["covid"]
-  col = db["countrywise"]
+  col = db["records"]
 
   #inserting the bulk object to db
   insert_return = col.insert_many(country_wise)
